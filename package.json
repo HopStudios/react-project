@@ -1,0 +1,43 @@
+{
+  "name": "hop-reveal-builder",
+  "version": "1.1.0",
+  "description": "Hop Reveal gives site admins a quick, helpful visual cue about which server they are working on -- staging, development or production -- on frontend and/or backend pages.",
+  "main": "app.js",
+  "scripts": {
+    "copy": "cp -a dist/react_project ../../system/user/addons/ && cp -a dist/themes/react_project ../../themes/user/",
+    "watch": "webpack --watch --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Hop Studios",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-select": "^5.4.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "eslint": "^8.22.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "filemanager-webpack-plugin": "^7.0.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "react-dev-utils": "^12.0.1",
+    "sass": "^1.54.8",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.10.0"
+  }
+}
