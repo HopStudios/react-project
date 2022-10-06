@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Gilbert Lin <gilbert.lin.web@gmail.com>
+*/
+
 namespace GB\ReactProject\Helper;
 
 use ExpressionEngine\Controller\Design\AbstractDesign as AbstractDesignController;
