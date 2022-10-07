@@ -1,5 +1,7 @@
 # React Project Builder
 
+This is an example add-on that I put together for EEConf 2022. You can view the slides to my talk here: https://docs.google.com/presentation/d/1bmyx4vKHIAoaojJXVIMvXI1MmYy_6BkmorWoyFZQinw/edit?usp=sharing
+
 ## Getting started
 
 You can use this builder in your local site built with docker, or on a remote server. You need to have `npm` installed.
